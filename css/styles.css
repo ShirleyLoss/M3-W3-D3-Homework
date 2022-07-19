@@ -1,0 +1,76 @@
+/* Variables */
+/* Nest Nav */
+nav {
+  font-family: Arial, Helvetica, Sans-Serif;
+  margin: 1em 4em;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav ul li {
+  font-size: 15px;
+  display: inline;
+  color: rgb(255, 255, 255);
+}
+nav ul li a {
+  font-size: 15px;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+* {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, Sans-Serif;
+}
+
+body {
+  background-color: rgb(218, 170, 14);
+  /* Nest Main */
+}
+body main {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 1em;
+  width: 1350px;
+  min-height: 535px;
+}
+body #intro-text {
+  padding-top: 120px;
+  background-color: rgb(212, 213, 216);
+  position: relative;
+  text-align: center;
+}
+body #intro-text span {
+  margin-top: 200px;
+  font-size: 30px;
+  font-family: "Sacramento", cursive;
+}
+body #intro-text h3 {
+  font-size: 30px;
+}
+body #intro-text p {
+  margin: 2em;
+  font-size: medium;
+}
+body #intro-text button {
+  margin-top: 2em;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  height: 3em;
+  background-color: rgb(218, 170, 14);
+  border: 0;
+  padding: 0 1em;
+}
+body #intro-image img {
+  width: 100%;
+  height: 100%;
+}
+body footer {
+  margin: 2em 8em;
+  font-size: medium;
+}/*# sourceMappingURL=styles.css.map */
